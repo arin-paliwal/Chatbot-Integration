@@ -21,3 +21,4 @@ __pycache__/
 *.log
 *.key
 *.pem
+standalone-frontend/
