@@ -5,9 +5,9 @@ app = Flask(__name__)
 CORS(app) # for linking
 
 # not needed -- for cors
-@app.get("/")  # flask 2.0
-def index_get():
-    return render_template('base.html')
+# @app.get("/")  # flask 2.0
+# def index_get():
+#     return render_template('base.html')
 
 
 @app.post("/predict")
