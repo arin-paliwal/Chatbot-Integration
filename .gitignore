@@ -1,0 +1,23 @@
+# Ignore compiled Python files
+*.pyc
+
+# Ignore the virtual environment directory (if using venv or virtualenv)
+venv/
+env/
+
+# Ignore local configuration files
+instance/
+
+# Ignore log files
+logs/
+
+# Ignore cache directories
+__pycache__/
+
+# Ignore any sensitive or private data files
+*.env
+*.sqlite
+*.db
+*.log
+*.key
+*.pem
