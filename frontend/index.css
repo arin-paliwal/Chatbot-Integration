@@ -14,7 +14,7 @@ body {
 
 *, html {
   /* CSS variables */
---primary: #1A1A1A; --secondary: #e37926; --primaryGradient: linear-gradient(93.12deg, #1A1A1A 0.52%, #e37926 100%); --secondaryGradient: linear-gradient(268.91deg, #1A1A1A -2.14%, #e37926 99.69%); --primaryBoxShadow: 0px 10px 15px rgba(255, 165, 0, 0.1); --secondaryBoxShadow: 0px -10px 15px rgba(255, 165, 0, 0.1);
+--primary: #bd6725 ; --secondary: #bd6725 ; --primaryGradient: linear-gradient(93.12deg, #bd6725  0.52%, #bd6725  100%); --secondaryGradient: linear-gradient(268.91deg, #bd6725  -2.14%, #bd6725  99.69%); --primaryBoxShadow: 0px 10px 15px rgba(255, 165, 0, 0.1); --secondaryBoxShadow: 0px -10px 15px rgba(255, 165, 0, 0.1);
 
 /* CHATBOX */
 .chatbox {
@@ -60,6 +60,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  color: #7c7979;
 }
 /* HEADER */
 .chatbox__header {
@@ -100,7 +101,7 @@ body {
   /* Chatbox content styling */
   background: #f9f9f9;
   height: 550px;
-  width: 550px;
+  width: 390px;
   box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
@@ -147,7 +148,7 @@ body {
     color: white;
 }
 
-.messages__item--visitor,
+.messages__item--visitor, 
 .messages__item--typing {
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
