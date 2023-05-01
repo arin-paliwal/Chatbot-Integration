@@ -2,83 +2,187 @@
   "intents": [
     {
       "tag": "greeting",
-      "patterns": [
-        "Hi",
-        "Hey",
-        "How are you",
-        "Is anyone there?",
-        "Hello",
-        "Good day"
-      ],
+      "patterns": ["Hi", "Hello", "Hey"],
       "responses": [
-        "Hey :-)",
-        "Hello, thanks for visiting",
-        "Hi there, what can I do for you?",
-        "Hi there, how can I help?"
+        "Hi there! How can I help you today?",
+        "Hello! What can I do for you?",
+        "Hey! What brings you here?"
       ]
     },
     {
-      "tag": "goodbye",
-      "patterns": ["Bye", "See you later", "Goodbye"],
+      "tag": "portfolio",
+      "patterns": [
+        "Can you show me your portfolio?",
+        "What kind of projects have you worked on?",
+        "I'd like to see your work"
+      ],
       "responses": [
-        "See you later, thanks for visiting",
-        "Have a nice day",
-        "Bye! Come back again soon."
+        "Sure, you can check out my portfolio at bit.ly/paliwalarin ",
+        "I have worked on a variety of projects, you can find them all on my portfolio page",
+        "Absolutely, head over to my portfolio section to see my work"
+      ]
+    },
+    {
+      "tag": "about",
+      "patterns": ["Tell me about yourself", "Who are you?", "What do you do?"],
+      "responses": [
+        "I am a Full Stack Web Developer and I specialize in Web Designing and Problem Solving",
+        "I am passionate about Web Development and Web Releated Services and have been improving in this field more and mpre."
+      ]
+    },
+    {
+      "tag": "contact",
+      "patterns": [
+        "How can I contact you?",
+        "Can I get in touch with you?",
+        "What's the best way to reach you?"
+      ],
+      "responses": [
+        "You can reach me via email at paliwalarin09@gmail.com",
+        "Feel free to send me a message through the contact form on my website",
+        "I am also available on social media, you can find my handles on my website"
       ]
     },
     {
       "tag": "thanks",
-      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
-      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+      "patterns": ["Thank you", "Thanks", "Appreciate it"],
+      "responses": ["You're welcome!", "Anytime!", "No problem, happy to help!"]
     },
     {
-      "tag": "items",
-      "patterns": [
-        "Which items do you have?",
-        "What kinds of items are there?",
-        "What do you sell?"
-      ],
+      "tag": "goodbye",
+      "patterns": ["Bye", "Goodbye", "See you later"],
       "responses": [
-        "We sell coffee and tea",
-        "We have coffee and tea"
+        "Goodbye! Have a great day!",
+        "Take care, see you soon!",
+        "Until next time!"
       ]
     },
     {
-      "tag": "payments",
+      "tag": "name",
       "patterns": [
-        "Do you take credit cards?",
-        "Do you accept Mastercard?",
-        "Can I pay with Paypal?",
-        "Are you cash only?"
+        "What's your name?",
+        "May I know your name?",
+        "Could you tell me your name?"
       ],
       "responses": [
-        "We accept VISA, Mastercard and Paypal",
-        "We accept most major credit cards, and Paypal"
+        "My name is Arin Paliwal.",
+        "I go by the name Arin Paliwal.",
+        "You can call me Arin Paliwal."
       ]
     },
     {
-      "tag": "delivery",
+      "tag": "projects",
       "patterns": [
-        "How long does delivery take?",
-        "How long does shipping take?",
-        "When do I get my delivery?"
+        "What kind of projects have you worked on?",
+        "Tell me about your projects",
+        "Can you show me some of your projects?"
       ],
       "responses": [
-        "Delivery takes 2-4 days",
-        "Shipping takes 2-4 days"
+        "I have worked on a variety of projects, including Chatting Web Application , Social Media Application To-Do Task Manager and more. You can find more details about each project on my portfolio page.",
+        "Some of the projects I have worked on include Chatting Web Application , Social Media Application To-Do Task Manager and more. You can check out each project's details and screenshots on my portfolio page.",
+        "I have experience working on projects such as Chatting Web Application , Social Media Application To-Do Task Manager and more. You can find more information and links to the live websites on my portfolio page."
       ]
     },
     {
-      "tag": "funny",
+      "tag": "education",
       "patterns": [
-        "Tell me a joke!",
-        "Tell me something funny!",
-        "Do you know a joke?"
+        "What is your educational background?",
+        "Tell me about your education",
+        "Where did you study?"
       ],
       "responses": [
-        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
-        "What did the buffalo say when his son left for college? Bison."
+        "I am presuing Bachelor of Technology from Pranveer Singh Institute of Technology in Computer Science & Engineering.",
+        "I completed my schooling from Mercy Memorial School."
+      ]
+    },
+    {
+      "tag": "skills do",
+      "patterns": [
+        "What are your skills?",
+        "What kind of skills do you have?",
+        "Tell me about your skillset",
+        "What can you do"
+      ],
+      "responses": [
+        "I have experience in a variety of skills including HTML JavaScript Java Python C++ Microsoft Office ExpressJs React MongoDB Node.js Git and much more.",
+        "Some of my skills include HTML JavaScript Java Python C++ Microsoft Office ExpressJs React MongoDB Node.js Git and much more..",
+        "I am proficient in HTML JavaScript Java Python C++ Microsoft Office ExpressJs React MongoDB Node.js Git and much more and have experience working with good class projects."
+      ]
+    },
+    {
+      "tag": "certificates",
+      "patterns": [
+        "Do you have any certificates?",
+        "What certifications do you hold?",
+        "Tell me about your certificates"
+      ],
+      "responses": [
+        "Yes, I have earned certifications in Python, Java, Full Stack Web Development, React, MongoDB and much more. You can find more on my portfolio website",
+        "I hold certifications in Python, Java, Full Stack Web Development, React, MongoDB and much more. You can find more on my portfolio website.",
+        "Some of my certifications include Python, Java, Full Stack Web Development, React, MongoDB and much more. You can find more on my portfolio website."
+      ]
+    },
+    {
+      "tag": "bye",
+      "patterns": ["Goodbye", "See you later", "Bye bye", "Talk to you later"],
+      "responses": [
+        "Goodbye! It was nice chatting with you.",
+        "Bye! Have a great day.",
+        "Take care, and don't hesitate to contact me again if you have any questions."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thank you",
+        "Thanks a lot",
+        "Appreciate it",
+        "Thanks so much"
+      ],
+      "responses": [
+        "You're welcome!",
+        "No problem, happy to help.",
+        "Anytime, feel free to ask if you have more questions.",
+        "Glad I could assist you!"
+      ]
+    },
+    {
+      "tag": "jokes",
+      "patterns": [
+        "Tell me a joke",
+        "I need a laugh",
+        "Make me laugh",
+        "Joke time"
+      ],
+      "responses": [
+        "Why don't scientists trust atoms? Because they make up everything!",
+        "Why don't sharks live on land? Because they can't climb trees!",
+        "Why did the tomato turn red? Because it saw the salad dressing!",
+        "Why did the scarecrow win an award? Because he was outstanding in his field!"
+      ]
+    },
+    {
+      "tag": "greetings",
+      "patterns": [
+        "Good morning",
+        "Morning",
+        "Good day",
+        "Hello",
+        "Hi",
+        "Goodnight",
+        "Night",
+        "Sweet dreams"
+      ],
+      "responses": [
+        "Good morning! How can I assist you today?",
+        "Hello there! What can I help you with?",
+        "Hi! What brings you here today?",
+        "Goodnight! Sleep well and have a great day tomorrow.",
+        "Sweet dreams! See you soon.",
+        "Hey there! What can I help you with today?",
+        "Good evening! What can I assist you with?"
       ]
     }
+
   ]
 }
