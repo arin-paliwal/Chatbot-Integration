@@ -1,0 +1,65 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Hey"],
+      "responses": [
+        "Hello! Welcome to my portfolio website.",
+        "Hi there! How can I help you today?"
+      ]
+    },
+    {
+      "tag": "about",
+      "patterns": ["Tell me about yourself", "What do you do?", "Who are you?"],
+      "responses": [
+        "I'm in Full Stack Web Development, Web Designing & Data Structures. I specialize in building responsive and user-friendly websites. "
+      ]
+    },
+    {
+      "tag": "projects",
+      "patterns": [
+        "What projects have you worked on?",
+        "Can you show me some of your work?"
+      ],
+      "responses": [
+        "Sure! You can check out my portfolio page to see some of my recent projects."
+      ]
+    },
+    {
+      "tag": "contact",
+      "patterns": ["How can I contact you?", "What's your email address?"],
+      "responses": [
+        "You can reach me at paliwalarin09@gmail.com. I look forward to hearing from you!"
+      ]
+    },
+    {
+      "tag": "services",
+      "patterns": [
+        "What services do you offer?",
+        "Can you help me with my website?"
+      ],
+      "responses": [
+        "I offer a range of services including website design,problem solving, development, maintenance and software development. Please feel free to contact me to discuss your specific needs."
+      ]
+    },
+    {
+      "tag": "skills",
+      "patterns": [
+        "What programming languages do you know?",
+        "What skills do you have?"
+      ],
+      "responses": [
+        "I have experience with a variety of programming languages and tools including HTML, React, Git, Full Stack Development, JavaScript, Python, and more on my page. Please feel free to contact me to discuss your specific needs."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thank you", "Thanks so much", "Appreciate it"],
+      "responses": [
+        "You're welcome! I'm glad I could help.",
+        "No problem, happy to assist.",
+        "My pleasure. Let me know if you need anything else."
+      ]
+    }
+  ]
+}
