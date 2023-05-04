@@ -12,7 +12,7 @@
       "tag": "about",
       "patterns": ["Tell me about yourself", "What do you do?", "Who are you?"],
       "responses": [
-        "I'm in Full Stack Web Development, Web Designing & Data Structures. I specialize in building responsive and user-friendly websites. "
+        "I'm am an Engineering Student and i'm in Full Stack Web Development, UI/UX Designing & Data Structures. I specialize in building responsive and user-friendly websites. "
       ]
     },
     {
@@ -22,7 +22,7 @@
         "Can you show me some of your work?"
       ],
       "responses": [
-        "Sure! You can check out my portfolio page to see some of my recent projects."
+        "Sure! Text-Flow, ChatVibe, Welthie are some of my projects, you can check all of them at my portfolio page."
       ]
     },
     {
