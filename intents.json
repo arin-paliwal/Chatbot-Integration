@@ -12,24 +12,53 @@
       "tag": "about",
       "patterns": ["Tell me about yourself", "What do you do?", "Who are you?"],
       "responses": [
-        "I'm am an Engineering Student and i'm in Full Stack Web Development, UI/UX Designing & Data Structures. I specialize in building responsive and user-friendly websites. "
+        "I'm a engineering student and I'm in Full Stack Web Development, UI/UX Designing, Data Structures & Machine Learning. I specialize in building responsive and user-friendly websites. "
       ]
     },
     {
-      "tag": "projects",
+      "tag": "name",
+      "patterns": ["What's your name?", "Can you tell me your name?"],
+      "responses": ["My name is Arin Paliwal."]
+    },
+    {
+      "tag": "skills",
       "patterns": [
-        "What projects have you worked on?",
-        "Can you show me some of your work?"
+        "What programming languages do you know?",
+        "What skills do you have?"
       ],
       "responses": [
-        "Sure! Text-Flow, ChatVibe, Welthie are some of my projects, you can check all of them at my portfolio page."
+        "I have experience with a variety of programming languages and tools including HTML, Git, JavaScript, React, Python, Java and more. Please feel free to check my portfolio page for more details."
+      ]
+    },
+    {
+      "tag": "education",
+      "patterns": [
+        "What's your educational background?",
+        "Where did you study?"
+      ],
+      "responses": [
+        "I am currently studying Engineering. I have completed various courses related to Full Stack Development, UI/UX Designing, Programming Languages Data Structures. Please feel free to check my portfolio page for more details."
       ]
     },
     {
       "tag": "contact",
-      "patterns": ["How can I contact you?", "What's your email address?"],
+      "patterns": [
+        "How can I contact you?",
+        "What's your email address?",
+        "Can I get in touch with you?"
+      ],
       "responses": [
-        "You can reach me at paliwalarin09@gmail.com. I look forward to hearing from you!"
+        "You can reach me at paliwalarin09@gmail.cim. I look forward to hearing from you!"
+      ]
+    },
+    {
+      "tag": "portfolio",
+      "patterns": [
+        "Can you show me your portfolio?",
+        "Where can I find your work?"
+      ],
+      "responses": [
+        "Sure! You can check out my portfolio page to see my previous work and projects. Please feel free to contact me if you have any questions or if you're interested in working with me."
       ]
     },
     {
@@ -39,17 +68,7 @@
         "Can you help me with my website?"
       ],
       "responses": [
-        "I offer a range of services including website design,problem solving, development, maintenance and software development. Please feel free to contact me to discuss your specific needs."
-      ]
-    },
-    {
-      "tag": "skills",
-      "patterns": [
-        "What programming languages do you know?",
-        "What skills do you have?"
-      ],
-      "responses": [
-        "I have experience with a variety of programming languages and tools including HTML, React, Git, Full Stack Development, JavaScript, Python, and more on my page. Please feel free to contact me to discuss your specific needs."
+        "I offer a range of services including website design, development, maintenance and software development. Please feel free to contact me to discuss your specific needs."
       ]
     },
     {
@@ -59,6 +78,26 @@
         "You're welcome! I'm glad I could help.",
         "No problem, happy to assist.",
         "My pleasure. Let me know if you need anything else."
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Goodbye", "Bye", "See you later"],
+      "responses": [
+        "Goodbye! Thanks for visiting my portfolio website.",
+        "Take care! Feel free to contact me if you have any questions.",
+        "See you later! Have a great day."
+      ]
+    },
+    {
+      "tag": "unknown",
+      "patterns": [],
+      "responses": [
+        "I'm sorry, I don't understand. Can you please try rephrasing or asking something else?",
+        "I'm not sure I follow. Can you please provide more context or ask a different question?",
+        "I don't have information on that topic. Is there anything else I can help you with?",
+        "I'm not programmed to answer that question. Please try asking something else.",
+        "I'm sorry, I'm not able to assist with that. Is there anything else you would like to know?"
       ]
     }
   ]

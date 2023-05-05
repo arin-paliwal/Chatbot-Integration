@@ -144,10 +144,10 @@ body {
 
 .messages__item {
     margin-top: 10px;
-    background: #ae5b1b;
+    background: #cdcbcb;
     padding: 8px 12px;
     max-width: 70%;
-    color: white;
+    color: black;
 }
 
 .messages__item--visitor, 
@@ -204,4 +204,5 @@ body {
     /* border-bottom-left-radius: 50px; */
     box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1);
     cursor: pointer;
+}
 }
